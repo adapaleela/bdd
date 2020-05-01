@@ -8,6 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features= {"E:\\leelajava\\Bdd\\src\\test\\resources\\feature\\feauture.feature"},
 				monochrome=true,
 				tags= {"@smoketest"},
+		 		snippets=""camelcase,
 				plugin= {"pretty","html.target\\result"})
 
 public class Testrunner
